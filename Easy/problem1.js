@@ -11,7 +11,7 @@ simpleMultiplication(5); // output 45
 
 // best practice
 function simpleMultiplication(n) {
-  return n * (n % 2 ? 8 : 9);
+  n * (n % 2 ? 9 : 8);
 }; 
 simpleMultiplication(2); // output 16
 simpleMultiplication(1); // output 9
